@@ -6,6 +6,7 @@
 </head>
 
 <body>
+    <a href="{% url 'logout' %}">Logout</a>
     <h1>Task List</h1>
     <a href="{% url 'task_create' %}">Add Task</a>
     <ul>
@@ -27,7 +28,7 @@
         <button type="submit">Save</button>
     </form>
     <a href="{% url 'task_list' %}">Back</a>
-    <a href="{% url 'logout' %}">Logout</a>
+    
 </body>
 
 </html>
